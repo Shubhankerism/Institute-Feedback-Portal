@@ -73,7 +73,7 @@ html {
   
 }
 
-h2{
+h3{
   font-size: 24px;
   font-family: "arial";
 
@@ -89,7 +89,7 @@ h2{
   text-align: center;
   cursor: pointer;
   align-self: center;
-  width: 29%;
+  width: 21%;
   
 }
 
@@ -128,34 +128,45 @@ include 'navbar.php';
 <br><br>
 <br>
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-3">
     <div class="card">
       <img src="images/Shubhanker.jpg" alt="Shubhanker" style="width:100%;">
       <div class="container">
-        <h2 style="font-family: 'carson';  color: black;">Shubhanker Srivastava</h2>
+        <h3 style="font-family: 'carson';  color: black;">Shubhanker Srivastava</h3>
         <p class="title">2016-IPG-104</p>
         <p><a href="https://www.facebook.com/shubhanker.srivastava.1" target="_blank"><button class="button"><i class="fa fa-facebook-square" style="font-size:30px ;color:white"></i></button></a></p>
       </div>
     </div>
   </div>
 
-  <div class="col-sm-4">
+    <div class="col-sm-3">
     <div class="card">
-      <img src="images/Shivendra1.jpg" alt="Shivendra" style="width:100%;">
+      <img src="images/dummy.jpg" alt="placeholder" style="width:100%;">
       <div class="container">
-        <h2 style="font-family: 'carson';  color: black;">Shivendra Pratap Singh</h2>
-        <p class="title">2016-IPG-101</p>
-         <p><a href="https://www.facebook.com/shivendra.pratapsingh.731135" target="_blank"><button class="button"><i class="fa fa-facebook-square" style="font-size:30px ;color:white"></i></button></a></p>
+        <h3 style="font-family: 'carson';  color: black;">Name</h3>
+        <p class="title">Roll number</p>
+         <p><a href="https://www.facebook.com/username" target="_blank"><button class="button"><i class="fa fa-facebook-square" style="font-size:30px ;color:white"></i></button></a></p>
       </div>
     </div>
   </div>
-  <div class="col-sm-4">
+
+   <div class="col-sm-3">
     <div class="card">
-      <img src="images/Bansal.jpg" alt="Bansal" style="width:100%;">
+      <img src="images/dummy.jpg" alt="placeholder" style="width:100%;">
       <div class="container">
-        <h2 style="font-family: 'carson';  color: black;">Prakhar Bansal</h2>
-        <p class="title">2016-IPG-070</p>
-         <p><a href="https://www.facebook.com/prakhar.bansal.501" target="_blank"><button class="button"><i class="fa fa-facebook-square" style="font-size:30px ;color:white"></i></button></a></p>
+        <h3 style="font-family: 'carson';  color: black;">Name</h3>
+        <p class="title">Roll number</p>
+         <p><a href="https://www.facebook.com/username" target="_blank"><button class="button"><i class="fa fa-facebook-square" style="font-size:30px ;color:white"></i></button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <img src="images/dummy.jpg" alt="placeholder" style="width:100%;">
+      <div class="container">
+        <h3 style="font-family: 'carson';  color: black;">Name</h3>
+        <p class="title">Roll number</p>
+         <p><a href="https://www.facebook.com/username" target="_blank"><button class="button"><i class="fa fa-facebook-square" style="font-size:30px ;color:white"></i></button></a></p>
       </div>
     </div>
   </div>
