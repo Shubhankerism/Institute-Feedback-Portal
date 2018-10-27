@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-
+//PHPMailer is used
 	use PHPMailer\PHPMailer\PHPMailer;
 
 	require 'phpmailer\phpmailer\src\PHPMailer.php';
@@ -20,8 +20,7 @@
 	//echo "roll:".$roll;
 	$_SESSION["year"]=$year;
 	$q = "SELECT * FROM student where year=$year AND course='$course' AND roll_num=$roll";
-	/*$sid=$conn->query($q1);
-	echo $sid['s_id'];*/
+	
 	$res=mysqli_query($conn,$q);	
 	$reqid=mysqli_fetch_assoc($res);
 	$sid= $reqid["s_id"];
