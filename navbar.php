@@ -6,7 +6,7 @@ if(isset($_POST['submit_ad']))
 
 $pass="admin";
 $userpass=$_POST['password'];
-
+//this is a navbar
 // session_start();
 // $_SESSION['check']=1;
 
@@ -51,7 +51,7 @@ else
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand">FEEDBACK PORTAL</a>		
+			<a href="#" class="navbar-brand">INSTITUTE FACULTY FEEDBACK PORTAL</a>		
 		</div>
 
 		<div class="collapse navbar-collapse" id="mainnavbar">
@@ -80,7 +80,7 @@ else
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<div class="modal-title">
 						<h3 align="center">
-							<b>ADMIN</b>
+							<b><u>ADMIN<u></b>
 						</h3>
 					</div>
 				</div>
